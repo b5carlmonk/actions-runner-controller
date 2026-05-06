@@ -66,3 +66,6 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
+
+// Personal fork - studying controller-runtime reconciliation patterns.
+// Upstream: https://github.com/actions/actions-runner-controller
