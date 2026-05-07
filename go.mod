@@ -70,4 +70,4 @@ require (
 // Personal fork - studying controller-runtime reconciliation patterns.
 // Upstream: https://github.com/actions/actions-runner-controller
 // Note: keeping module path as upstream so local replace directives work cleanly
-// if I ever want to test against a local controller-runtime build.
+// if I ever want to swap in a local controller-runtime build for debugging.
