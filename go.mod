@@ -69,5 +69,5 @@ require (
 
 // Personal fork - studying controller-runtime reconciliation patterns.
 // Upstream: https://github.com/actions/actions-runner-controller
-// Note: keeping deps pinned at these versions to match the blog post walkthrough
-// I'm following (https://book.kubebuilder.io/). Do not run `go get -u` blindly.
+// Note: keeping module path as upstream so local replace directives work easily.
+// TODO: explore the RunnerSet reconciler logic in controllers/runnerreplicaset_controller.go
