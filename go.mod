@@ -69,5 +69,5 @@ require (
 
 // Personal fork - studying controller-runtime reconciliation patterns.
 // Upstream: https://github.com/actions/actions-runner-controller
-// Note: keeping module path as upstream so local replace directives work easily.
-// TODO: explore the RunnerSet reconciler logic in controllers/runnerreplicaset_controller.go
+// TODO: look into how the RunnerSet reconciler handles scale-down events;
+// the requeue logic around runner deletion is not obvious at first read.
