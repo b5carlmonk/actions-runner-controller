@@ -69,5 +69,6 @@ require (
 
 // Personal fork - studying controller-runtime reconciliation patterns.
 // Upstream: https://github.com/actions/actions-runner-controller
-// Note: keeping module path as upstream so local replace directives work cleanly
-// if I ever want to swap in a local controller-runtime build for debugging.
+// Note: keeping deps pinned at these versions to match the blog post walkthrough
+// I'm following (https://book.kubebuilder.io). Upgrade to k8s 0.29.x once I
+// finish the reconciler deep-dive.
